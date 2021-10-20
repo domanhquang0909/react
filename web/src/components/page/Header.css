@@ -1,0 +1,46 @@
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 70px;
+    background-color: rgba(22, 22, 22, 0.6);
+    z-index: 2;
+    color: #fff;
+}
+
+.background {
+    position: absolute;
+    top: 70;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+}
+
+.card {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+    justify-content: space-between;
+}
+
+.header__page {
+    display: flex;
+    align-items: center;
+}
+
+.header__page a {
+    margin: 0 15px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    text-decoration: none;
+}
+
+.header__page a:hover {
+    color: rgb(221, 217, 217);
+}
